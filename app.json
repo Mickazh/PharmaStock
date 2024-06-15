@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "PharamStock",
+    "slug": "PharamStock",
+    "scheme": "PharamStock",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/favicon_pharmacie.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash_pharmacie.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/favicon_pharmacie.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "softwareKeyboardLayoutMode": "pan"
+    },
+    "web": {
+      "favicon": "./assets/favicon_pharmacie.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store"
+    ]
+  }
+}
